@@ -13,7 +13,7 @@ and open the template in the editor.
         <link href="css/default.css" rel="stylesheet" type="text/css"/>
         <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-`       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <!------ Include the above in your HEAD tag ---------->
 
@@ -26,15 +26,13 @@ and open the template in the editor.
     <body>
 <div class="flex-center position-ref full-height">
 
-<!--                <div class="top-right links">
-                    <a href="">Home</a>
-                    <a href="/">Login</a>
-                    <a href="register">Register</a>
-                </div>-->
+<div class="text-center">
+            <div class="logo1">SHARE EXPENSES</div>
+        </div>
 
 <!-- Where all the magic happens -->
 <!-- LOGIN FORM -->
-<div class="text-center" style="padding-top: 80px;">
+<div class="text-center">
     <form class="registerContainer" action="{{ URL::to('/login/verify') }}" method="post" enctype="multipart/form-data">
     {{ csrf_field() }}
 	<div class="logo">Login</div>
@@ -67,7 +65,7 @@ and open the template in the editor.
 				<button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
 			</div>
 			<div class="etc-login-form">
-				<h4>forgot your password? <a href="forget">click here</a></h4>
+<!--				<h4>forgot your password? <a href="forget">click here</a></h4>-->
                                 <h4>new user? <a href="register">create new account</a></h4>
 			</div>
 		</form>

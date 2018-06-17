@@ -21,10 +21,14 @@ Last change	: 2015/03/27
 /*=== 1. General Structure ===*/
 
 body {
-  background-image: url("img/img6copy.jpg");
+  background-image: url("img/imgx.png");
   padding: 20px;
   font-family: 'Varela Round';
 }
+h1 {
+                font: italic bold 150px Georgia, serif;
+                
+            }
 /*=== 2. Anchor Link ===*/
 a {
   color: #aaaaaa;
@@ -286,4 +290,13 @@ label:hover:before {
   font-size: 25px;
   color: #aaaaaa;
   font-weight: bold;
+}
+
+.logo1 {
+  padding: 15px 0;
+  font-size: 50px;
+  font-weight: 600;
+  color: #636b6f;
+  text-transform: uppercase;
+  font-family: Times, Times New Roman, serif;
 }
